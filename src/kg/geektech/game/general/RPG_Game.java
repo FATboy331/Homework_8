@@ -17,7 +17,7 @@ public class RPG_Game {
         Medic doc = new Medic("Doc", 230, 5, 15);
         Berserk berserk = new Berserk("Ragnar", 270, 15);
         Medic assistant = new Medic("Potter", 300, 10, 5);
-        Saitama saitama = new Saitama("Saitama", 1000000, 0);
+        Saitama saitama = new Saitama("Saitama", 1000000, -10000);
         Thor thor = new Thor("Thor", 290, 20);
         Deku deku = new Deku("Deku", 200, 25);
         Hero[] heroes = {warrior, magic, doc, berserk, assistant, saitama, thor, deku};
